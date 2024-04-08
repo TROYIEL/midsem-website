@@ -4,13 +4,11 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>About - Mentor Bootstrap Template</title>
+  <title>MIDSEM</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -23,6 +21,32 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <style>
+    .photo-container {
+      display: flex;
+      width: fit-content; /* Adjust width as needed */
+      animation: slide 10s infinite ease-in-out;
+    }
+  
+    .photo {
+      flex: 0 0 auto;
+      margin: 0 10px;
+      width: 200px; /* Adjust width as needed */
+      height: 200px; /* Adjust height as needed */
+    }
+  
+    .photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Adjust image fitting as needed */
+    }
+  
+    @keyframes slide {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-calc(100% + 10px)); } /* Adjust distance based on container width */
+    }
+  </style>
+  
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
@@ -58,7 +82,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="BU.html">Get Started</a>
+      <a class="btn-getstarted" href=https://bugemauniv.ac.ug/">Get Started</a>
 
     </div>
   </header>
@@ -76,7 +100,7 @@
 
                 Bugema University has 7 schools, offering programs in arts and social sciences, business, and information technology. It provides a wide range of degree programs, vocational certificates, and professional licenses. The university has experienced steady growth, attracting students from various African countries.
                 
-                IIn 2009, Bugema University received a charter from the President of Uganda, recognizing it as a fully-fledged university. It established a graduate school and introduced programs in business administration, education, development, counseling psychology, and public health. The university holds accreditation from the Adventist Accrediting Association and is regulated by the Ministry of Education and Sports in Uganda.
+                In 2009, Bugema University received a charter from the President of Uganda, recognizing it as a fully-fledged university. It established a graduate school and introduced programs in business administration, education, development, counseling psychology, and public health. The university holds accreditation from the Adventist Accrediting Association and is regulated by the Ministry of Education and Sports in Uganda.
                 
                 Bugema University is committed to maintaining high standards of academic excellence and quality assurance. It follows a comprehensive document outlining self-regulating procedures to ensure the best educational experience for its students.
                 
@@ -123,28 +147,29 @@
             }
           }
         </script>
-        <div class="swiper-wrapper" class="swiper-slide" class="testimonial-wrap" class="testimonial-item">
-                <img src="assets/img/BU/64a2a0e40f152_slide2.jpg"  width="" height="300px" class="testimonial-img" alt="">
-          </div><!-- End testimonial item -->
-          <div class="swiper-wrapper" class="swiper-slide" class="testimonial-img" class="testimonial-item">
-            <img src="assets/img/BU/64a600abaa4e0_IMG_2326.jpg"  width="" height="300px" class="testimonial-img" alt="">
-      </div><!-- End testimonial item -->
-      <div class="swiper-wrapper" class="swiper-slide" class="testimonial-wrap" class="testimonial-item">
-        <img src="assets/img/BU/64a600dddc34c_IMG_2299.jpg"  width="" height="300px" class="testimonial-img" alt="">
-  </div><!-- End testimonial item -->
-  <div class="swiper-wrapper" class="swiper-slide" class="testimonial-wrap" class="testimonial-item">
-    <img src="assets/img/BU/64a6015c676f9_IMG_2336.jpg"  width="" height="300px" class="testimonial-img" alt="">
-</div><!-- End testimonial item -->
-<div class="swiper-wrapper" class="swiper-slide" class="testimonial-wrap" class="testimonial-item">
-  <img src="assets/img/BU/64a60102c2b67_IMG_2331.jpg"  width="" height="300px" class="testimonial-img" alt="">
-</div><!-- End testimonial item -->
-        <div class="swiper-pagination"></div>
-      </div>
-
-    </div>
-
+        
+        <div class="photo-container" class="container" data-aos="fade-up" data-aos-delay="100" >
+          <div class="photo" >
+            <img src="assets/img/BU/64a600dddc34c_IMG_2299.jpg" W >
+          </div>
+          <div class="photo">
+            <img src="assets/img/BU/64a2a0e40f152_slide2.jpg" >
+          </div>
+          <div class="photo">
+            <img src="assets/img/BU/64a6015c676f9_IMG_2336.jpg" >
+          </div>
+          <div class="photo">
+            <img src="assets/img/BU/64a600abaa4e0_IMG_2326.jpg" alt=>
+          </div>
+          <div class="photo">
+            <img src="assets/img/BU/64a60102c2b67_IMG_2331.jpg" alt=>
+          </div>
+          </div>
   </section><!-- /Testimonials Section -->
-
+  
+   
+  
+  
 
 <footer>
     <div class="container copyright text-center mt-4">
